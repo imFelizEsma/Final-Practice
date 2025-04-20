@@ -1,0 +1,16 @@
+{
+  "name": "mi-pagina-web",
+  "version": "1.0.0",
+  "description": "Proyecto con HTML y pruebas con Jest",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  }
+}
