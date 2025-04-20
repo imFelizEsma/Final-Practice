@@ -29,6 +29,6 @@ describe('Mi Página Web', () => {
   test('debe tener un párrafo con el texto esperado', () => {
     const p = document.querySelector('p');
     expect(p).not.toBeNull();
-    expect(p.textContent).toBe('Bienvenido a mi página web desplegada con GitHub Actions :D');
+    expect(p.textContent).toBe('Bienvenido a mi página web desplegada con GitHub Actions :D!');
   });
 });
